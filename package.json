@@ -1,0 +1,13 @@
+{
+  "name": "daeun-yeh-profile",
+  "version": "1.0.0",
+  "description": "Daeun Yeh (예다은) 개인 프로필 웹사이트 — 정적 HTML/CSS/JS",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
