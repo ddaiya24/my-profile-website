@@ -476,6 +476,7 @@ main {
 .media-a::before { background: linear-gradient(to bottom right, rgba(0, 74, 198, 0.1), transparent, rgba(0, 74, 198, 0.05)); }
 .media-b::before { background: linear-gradient(to top right, rgba(29, 78, 216, 0.1), transparent, #faf8ff); }
 .media-c::before { background: linear-gradient(to bottom left, rgba(219, 225, 255, 0.2), transparent, var(--surface-container)); }
+.media-d::before { background: linear-gradient(to top left, rgba(64, 105, 242, 0.12), transparent, rgba(0, 74, 198, 0.06)); }
 
 .media-panel {
   position: relative;
@@ -758,7 +759,7 @@ main {
   .avatar { width: 7.5rem; height: 7.5rem; }
 }
 
-/* 데스크톱 (≥ 960px): 상단 메뉴 + 프로젝트 3열 그리드 */
+/* 데스크톱 (≥ 960px): 상단 메뉴 + 프로젝트 2×2 그리드 */
 @media (min-width: 960px) {
   :root { --nav-h: 0rem; }
 
@@ -795,7 +796,7 @@ main {
 
   .carousel {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     overflow: visible;
     margin: 0;
     padding: 0;
